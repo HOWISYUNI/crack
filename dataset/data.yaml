@@ -1,0 +1,5 @@
+train: /dataset/train.txt
+val: /dataset/validation.txt
+
+nc: 1
+names: ['crack']
