@@ -1,0 +1,7 @@
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+yolov5/
+Labelling Tools/
+image processing results/
+Original Data/
