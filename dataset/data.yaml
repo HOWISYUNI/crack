@@ -1,5 +1,6 @@
-train: /dataset/train.txt
-val: /dataset/validation.txt
-
+names:
+- crack
 nc: 1
-names: ['crack']
+test: /home/piai/Desktop/crack/dataset/test.txt
+train: /home/piai/Desktop/crack/dataset/train.txt
+val: /home/piai/Desktop/crack/dataset/validation.txt
