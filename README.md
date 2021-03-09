@@ -1,5 +1,6 @@
-# yolov5 학습을 위한 디렉터리 및 파일 설명
-
+# YOLO v5를 활용한 crack detection
+---
+# 디렉터리 및 파일 설명
 
 ## datset/
 
