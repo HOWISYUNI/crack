@@ -1,6 +1,6 @@
 names:
 - crack
 nc: 1
-test: /home/piai/Desktop/crack/dataset/test.txt
-train: /home/piai/Desktop/crack/dataset/train.txt
-val: /home/piai/Desktop/crack/dataset/validation.txt
+test: /home/piai/Desktop/crack/dataset/pure_crack/split_info/only_crack/test.txt
+train: /home/piai/Desktop/crack/dataset/pure_crack/split_info/only_crack/train.txt
+val: /home/piai/Desktop/crack/dataset/pure_crack/split_info/only_crack/validation.txt
