@@ -1,6 +1,6 @@
 # yolov5 학습을 위한 디렉터리 및 파일 설명
 
----
+
 ## datset/
 
     1. 학습 및 테스트르 위한 이미지 데이터로 구성.
@@ -44,7 +44,7 @@
 1. coco + crack 으로 학습시킨 모델의 다중 클래스 객체 탐지를 위한 데이터
 2. 학습에 참여하지 않았고, 인간 판단하에 같은 클래스에 해당하는 이미지에 대해 detection 테스트
 
----
+
 ## test_results/
 1. crack으로만 학습시킨 모델의 분류 정확도 테스트결과
 2. `dataset/test_images/`의 이미지를 이용한다.
@@ -59,13 +59,12 @@
 #### test crack and non crack.ipynb
 : 각 threshold별 분류 결과에 대한 시각화. confution matrix 정보 존재.
 
----
+
 ## .ipynb 파일
 1. predict.ipynb : jupyter 파일로 터미널 동작
 2. revise yaml.ipynb : python의 yaml 라이브러리를 활용해 .yaml 파일 수정. notebook이 아닌 직접 수정해도 동작은 동일하다.
 3. split dataset.ipynb : `dataset`디렉터리에 존재하는 데이터를 목적에 맞게 .txt파일로 만들어낸다.
 
----
 ## .py 파일
 : 아래 파일들은 crack이미지의 자동 라벨링을 위한 이미지 프로세싱 코드이다. mophology 연산과 otsu 알고리즘을 사용했다.
 1. box.py : `cv2.recteangle`을 활용해 bbox를 그림
@@ -73,7 +72,7 @@
 3. lab.py : 이미지 프로세싱 알고리즘, 절차를 실험해보기위한 실험실
 4. test.py : labeling 결과 좌표를 이미지에 다시 재현해 실제 이미지에 정상작동하는지 확인
 
----
+
 # train, inference를 위한 간단한 터미널 명령어
 아래 예시는 간단한 학습, 검출을 위한 명령어이며, 더 풍부한 기능을 위해 사용자가 원하는 파라미터를 변경 및 설정할 수 있다.
 
