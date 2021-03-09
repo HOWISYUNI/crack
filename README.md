@@ -50,13 +50,13 @@
 2. `dataset/test_images/`의 이미지를 이용한다.
 3. 하위 디렉터리의 crack에는 detect 하지못한 crack이미지, noncrack에는 detect한 crack 이미지 저장
 
-#### 25/
+### 25/
 : 학습된 모델에 `confidence threshold=.25`제한 시 결과
 
-#### 75/
+### 75/
 : 학습된 모델에 `confidence threshold=.75`제한 시 결과
 
-#### test crack and non crack.ipynb
+### test crack and non crack.ipynb
 : 각 threshold별 분류 결과에 대한 시각화. confution matrix 정보 존재.
 
 
