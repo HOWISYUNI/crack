@@ -3,7 +3,7 @@
 ## Feature
 1. YOLO v5를 활용하여 이미지 내 __crack을 검출__
 2. coco dataset과 함께 학습시켜 __crack을 포함한 다중 객체 검출__
-2. 전통적인 image processing 기법 중 **otsu 알고리즘과 morphology 연산**을 활용__해 **자동 labelling**을 수행
+2. 전통적인 image processing 기법 중 **otsu 알고리즘과 morphology 연산**을 활용해 **자동 labelling**을 수행
 
 ## 학습을 위한 파일 설정
 1. __(데이터셋) -- (`.txt` 맵핑) -- (`.yaml` 설정) -- (yolov5)__
